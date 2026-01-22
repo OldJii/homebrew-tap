@@ -5,11 +5,8 @@
 ## 安装方式
 
 ```bash
-# 添加 tap
-brew tap OldJii/tap
-
-# 安装软件
-brew install --cask <cask-name>
+# 安装软件（会自动添加 tap）
+brew install --cask OldJii/tap/<cask-name>
 ```
 
 ## 可用软件
@@ -19,13 +16,10 @@ brew install --cask <cask-name>
 一站式 MCP Server 管理工具，支持 Cursor、Claude Desktop、Windsurf、Zed、TRAE。
 
 ```bash
-brew install --cask mcp-dock
-```
+# 安装
+brew install --cask OldJii/tap/mcp-dock
 
-## 更新软件
-
-```bash
-brew update
+# 更新
 brew upgrade --cask mcp-dock
 ```
 
