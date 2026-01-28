@@ -12,7 +12,7 @@ cask "mcp-dock" do
   url "https://github.com/OldJii/mcp-dock/releases/download/v#{version}/MCP.Dock-#{version}-#{arch}.dmg",
       verified: "github.com/OldJii/mcp-dock/"
   name "MCP Dock"
-  desc "一站式 MCP Server 管理工具，支持 Cursor、Claude Desktop、Windsurf、Zed、TRAE"
+  desc "一站式 MCP Server 和 Skills 管理工具，支持 Cursor、Claude Code、Windsurf、Zed 等"
   homepage "https://github.com/OldJii/mcp-dock"
 
   # 自动检查最新版本
