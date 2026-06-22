@@ -5,7 +5,7 @@
 cask "mcp-dock" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.3.1"
+  version "1.3.2"
   sha256 arm:   :no_check,
          intel: :no_check
 
